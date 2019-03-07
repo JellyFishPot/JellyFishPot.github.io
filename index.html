@@ -77,13 +77,13 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="github" target="_blank" href="https://github.com/JellyFishPot/JellyFishPot.github.io" title="github"><i class="icon-github"></i></a>
 		        
 					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 		        
 					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
 		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/ba-ke-space/activities" title="zhihu"><i class="icon-zhihu"></i></a>
 		        
 			</div>
 		</nav>
@@ -118,13 +118,13 @@
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="github" target="_blank" href="https://github.com/JellyFishPot/JellyFishPot.github.io" title="github"><i class="icon-github"></i></a>
 			        
 						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 			        
 						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
 			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/ba-ke-space/activities" title="zhihu"><i class="icon-zhihu"></i></a>
 			        
 				</div>
 			</nav>
@@ -172,7 +172,11 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>##发布文章流程<br>终端cd到blog文件夹下，执行如下命令新建文章：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"postName"</span></span><br></pre></td></tr></table></figure></p>
+<p>名为postName.md的文件会建在目录/blog/source/_posts下，postName是文件名，为方便链接不建议掺杂汉字。我在用MacDown编辑器，支持预览。<br>注意：当你的博文写多了之后，在写新的文章的时候就要在_post里面来找到你新建的文章，比较麻烦，现在可以让你在用了命令 $ hexo new “postName”之后自动打开</p>
+<p>文章编辑完成后，终端cd到blog文件夹下，执行如下命令来发布：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate //生成静态页面</span><br><span class="line"></span><br><span class="line">$ hexo deploy //将文章部署到Github</span><br></pre></td></tr></table></figure>
+
       
 
       
